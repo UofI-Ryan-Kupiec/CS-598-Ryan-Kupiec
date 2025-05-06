@@ -1,0 +1,514 @@
+Time: Tue Apr 22 16:18:18 2025
+New Split Job Start! 
+data_dir: /content/drive/MyDrive/CS598-DL-Healthcare/training_data, train_data: train.csv, val_data: val.csv, test_data: test.csv 
+log_path: log.txt, output_dir: chunk_output_FINAL, max_seq_length: 128
+=====================
+Time: Tue Apr 22 16:19:41 2025
+In the train dataset Positive Patients' Chunks: 679845, Negative Patients' Chunks: 359103
+In the validation dataset Positive Patients' Chunks: 83957, Negative Patients' Chunks: 41373
+In the test dataset Positive Patients' Chunks: 88102, Negative Patients' Chunks: 49832
+=====================
+Time: Tue Apr 22 16:20:08 2025
+Split finished
+=====================
+Time: Tue Apr 22 16:25:42 2025
+New Job Start! 
+Data directory: ./chunk_output_FINAL, Directory Code: FINAL, Save Model: True
+Output_dir: ./FINAL_FTL-Trans, Task Name: FTL-Trans_Prediction, embed_mode: all
+max_seq_length: 128,  max_chunk_num: 32
+train_batch_size: 32, eval_batch_size: 1
+learning_rate: 2e-05, warmup_proportion: 0.1
+num_train_epochs: 1, seed: 42, gradient_accumulation_steps: 1
+FTLSTM Model's lstm_layers: 1
+=====================
+Time: Tue Apr 22 16:25:42 2025
+config setting: 
+hidden_dropout_prob: 0.1 
+layer_norm_eps: 1e-12 
+initializer_range: 0.02 
+max_note_position_embedding: 1000 
+max_chunk_position_embedding: 1000 
+embed_mode: all 
+hidden_size: 768 
+lstm_layers: 1 
+task_name: FTL-Trans_Prediction 
+
+=====================
+Time: Tue Apr 22 16:25:42 2025
+Number of GPU is 1
+=====================
+Time: Tue Apr 22 16:25:42 2025
+Device Name: NVIDIA A100-SXM4-40GB,Device Capability: (8, 0)
+=====================
+Time: Tue Apr 22 16:25:54 2025
+Tokenize Start!
+=====================
+Time: Tue Apr 22 16:28:05 2025
+Tokenize Finished!
+=====================
+Time: Tue Apr 22 16:28:33 2025
+train dataset size is 1038948,
+validation dataset size is 125330,
+test dataset size is 137934
+=====================
+Time: Tue Apr 22 16:29:04 2025
+Training start!
+=====================
+Time: Tue Apr 22 17:07:18 2025
+Train loss: 0.6932006192838909
+=====================
+Time: Tue Apr 22 17:08:41 2025
+Validation Accuracy: 0.5
+=====================
+Time: Tue Apr 22 17:08:45 2025
+total training time is: 2380.1400241851807s
+=====================
+Time: Tue Apr 22 17:08:46 2025
+Model saved!
+=====================
+Time: Tue Apr 22 17:10:07 2025
+Test Patient Level Accuracy: 0.5
+Test Patient Level F1 Score: 0.6666666666666666
+Test Patient Level Precision: 0.5
+Test Patient Level Recall: 1.0
+Test Patient Level AUC: 0.5 
+Test Patient Level Matthew's correlation coefficient: 0.0
+Test Patient Level AUPR: 0.75 
+All Finished!
+=====================
+Time: Tue Apr 22 17:18:28 2025
+New Job Start! 
+Data directory: ./chunk_output_FINAL, Directory Code: FINAL, Save Model: True
+Output_dir: ./FINAL_FTL-Trans, Task Name: FTL-Trans_Prediction, embed_mode: all
+max_seq_length: 128,  max_chunk_num: 32
+train_batch_size: 32, eval_batch_size: 1
+learning_rate: 2e-05, warmup_proportion: 0.1
+num_train_epochs: 1, seed: 42, gradient_accumulation_steps: 1
+FTLSTM Model's lstm_layers: 1
+=====================
+Time: Tue Apr 22 17:18:28 2025
+config setting: 
+hidden_dropout_prob: 0.1 
+layer_norm_eps: 1e-12 
+initializer_range: 0.02 
+max_note_position_embedding: 1000 
+max_chunk_position_embedding: 1000 
+embed_mode: all 
+hidden_size: 768 
+lstm_layers: 1 
+task_name: FTL-Trans_Prediction 
+
+=====================
+Time: Tue Apr 22 17:18:28 2025
+Number of GPU is 1
+=====================
+Time: Tue Apr 22 17:18:28 2025
+Device Name: NVIDIA A100-SXM4-40GB,Device Capability: (8, 0)
+=====================
+Time: Tue Apr 22 17:18:46 2025
+Tokenize Start!
+=====================
+Time: Tue Apr 22 17:20:53 2025
+Tokenize Finished!
+=====================
+Time: Tue Apr 22 17:21:21 2025
+train dataset size is 1038948,
+validation dataset size is 125330,
+test dataset size is 137934
+=====================
+Time: Tue Apr 22 17:21:56 2025
+Training start!
+=====================
+Time: Tue Apr 22 17:59:18 2025
+Train loss: 0.6932006192838909
+=====================
+Time: Tue Apr 22 18:00:40 2025
+Validation Accuracy: 0.5
+=====================
+Time: Tue Apr 22 18:00:43 2025
+total training time is: 2326.5017516613007s
+=====================
+Time: Tue Apr 22 18:00:44 2025
+Model saved!
+=====================
+Time: Tue Apr 22 18:02:04 2025
+Test Patient Level Accuracy: 0.5
+Test Patient Level F1 Score: 0.6666666666666666
+Test Patient Level Precision: 0.5
+Test Patient Level Recall: 1.0
+Test Patient Level AUC: 0.5 
+Test Patient Level Matthew's correlation coefficient: 0.0
+Test Patient Level AUPR: 0.75 
+All Finished!
+=====================
+Time: Tue Apr 22 18:45:44 2025
+New Job Start! 
+Data directory: ./chunk_output_FINAL, Directory Code: FINAL, Save Model: True
+Output_dir: ./FINAL_FTL-Trans, Task Name: FTL-Trans_Prediction, embed_mode: all
+max_seq_length: 128,  max_chunk_num: 32
+train_batch_size: 32, eval_batch_size: 1
+learning_rate: 2e-05, warmup_proportion: 0.1
+num_train_epochs: 3, seed: 42, gradient_accumulation_steps: 1
+FTLSTM Model's lstm_layers: 1
+=====================
+Time: Tue Apr 22 18:45:44 2025
+config setting: 
+hidden_dropout_prob: 0.1 
+layer_norm_eps: 1e-12 
+initializer_range: 0.02 
+max_note_position_embedding: 1000 
+max_chunk_position_embedding: 1000 
+embed_mode: all 
+hidden_size: 768 
+lstm_layers: 1 
+task_name: FTL-Trans_Prediction 
+
+=====================
+Time: Tue Apr 22 18:45:44 2025
+Number of GPU is 1
+=====================
+Time: Tue Apr 22 18:45:44 2025
+Device Name: NVIDIA A100-SXM4-40GB,Device Capability: (8, 0)
+=====================
+Time: Tue Apr 22 18:45:59 2025
+Tokenize Start!
+=====================
+Time: Tue Apr 22 18:48:06 2025
+Tokenize Finished!
+=====================
+Time: Tue Apr 22 18:48:34 2025
+train dataset size is 1038948,
+validation dataset size is 125330,
+test dataset size is 137934
+=====================
+Time: Tue Apr 22 18:49:05 2025
+Training start!
+=====================
+Time: Tue Apr 22 19:26:36 2025
+Train loss: 0.6932006192838909
+=====================
+Time: Tue Apr 22 19:27:58 2025
+Validation Accuracy: 0.5
+=====================
+Time: Tue Apr 22 20:05:30 2025
+Train loss: 0.6931471824645996
+=====================
+Time: Tue Apr 22 20:06:52 2025
+Validation Accuracy: 0.5
+=====================
+Time: Tue Apr 22 20:44:25 2025
+Train loss: 0.6931471824645996
+=====================
+Time: Tue Apr 22 20:45:47 2025
+Validation Accuracy: 0.5
+=====================
+Time: Tue Apr 22 20:45:50 2025
+total training time is: 7004.457439184189s
+=====================
+Time: Tue Apr 22 20:45:54 2025
+Model saved!
+=====================
+Time: Tue Apr 22 20:47:14 2025
+Test Patient Level Accuracy: 0.5
+Test Patient Level F1 Score: 0.6666666666666666
+Test Patient Level Precision: 0.5
+Test Patient Level Recall: 1.0
+Test Patient Level AUC: 0.5 
+Test Patient Level Matthew's correlation coefficient: 0.0
+Test Patient Level AUPR: 0.75 
+All Finished!
+=====================
+Time: Wed Apr 23 20:43:36 2025
+New Job Start! 
+Data directory: ./chunk_output_FINAL, Directory Code: FINAL, Save Model: True
+Output_dir: ./FINAL_FTL-Trans2, Task Name: FTL-Trans_Prediction, embed_mode: all
+max_seq_length: 128,  max_chunk_num: 32
+train_batch_size: 32, eval_batch_size: 1
+learning_rate: 2e-05, warmup_proportion: 0.1
+num_train_epochs: 1, seed: 42, gradient_accumulation_steps: 1
+FTLSTM Model's lstm_layers: 1
+=====================
+Time: Wed Apr 23 20:43:37 2025
+config setting: 
+hidden_dropout_prob: 0.1 
+layer_norm_eps: 1e-12 
+initializer_range: 0.02 
+max_note_position_embedding: 1000 
+max_chunk_position_embedding: 1000 
+embed_mode: all 
+hidden_size: 768 
+lstm_layers: 1 
+task_name: FTL-Trans_Prediction 
+
+=====================
+Time: Wed Apr 23 20:43:37 2025
+Number of GPU is 1
+=====================
+Time: Wed Apr 23 20:43:37 2025
+Device Name: NVIDIA A100-SXM4-40GB,Device Capability: (8, 0)
+=====================
+Time: Wed Apr 23 20:43:51 2025
+Tokenize Start!
+=====================
+Time: Wed Apr 23 20:45:58 2025
+Tokenize Finished!
+=====================
+Time: Wed Apr 23 20:46:26 2025
+train dataset size is 1038948,
+validation dataset size is 125330,
+test dataset size is 137934
+=====================
+Time: Wed Apr 23 20:46:57 2025
+Training start!
+=====================
+Time: Wed Apr 23 21:25:24 2025
+Train loss: 0.6932006192838909
+=====================
+Time: Wed Apr 23 21:26:47 2025
+Validation Accuracy: 0.5
+=====================
+Time: Wed Apr 23 21:26:50 2025
+total training time is: 2392.8847987651825s
+=====================
+Time: Wed Apr 23 21:26:51 2025
+Model saved!
+=====================
+Time: Wed Apr 23 21:28:12 2025
+Test Patient Level Accuracy: 0.5
+Test Patient Level F1 Score: 0.6666666666666666
+Test Patient Level Precision: 0.5
+Test Patient Level Recall: 1.0
+Test Patient Level AUC: 0.5 
+Test Patient Level Matthew's correlation coefficient: 0.0
+Test Patient Level AUPR: 0.75 
+All Finished!
+=====================
+Time: Wed Apr 23 21:41:01 2025
+New Job Start! 
+Data directory: ./chunk_output_FINAL, Directory Code: FINAL, Save Model: True
+Output_dir: ./FINAL_FTL-Trans3, Task Name: FTL-Trans_Prediction, embed_mode: all
+max_seq_length: 128,  max_chunk_num: 32
+train_batch_size: 32, eval_batch_size: 1
+learning_rate: 2e-05, warmup_proportion: 0.1
+num_train_epochs: 1, seed: 42, gradient_accumulation_steps: 1
+FTLSTM Model's lstm_layers: 1
+=====================
+Time: Wed Apr 23 21:41:01 2025
+config setting: 
+hidden_dropout_prob: 0.1 
+layer_norm_eps: 1e-12 
+initializer_range: 0.02 
+max_note_position_embedding: 1000 
+max_chunk_position_embedding: 1000 
+embed_mode: all 
+hidden_size: 768 
+lstm_layers: 1 
+task_name: FTL-Trans_Prediction 
+
+=====================
+Time: Wed Apr 23 21:41:01 2025
+Number of GPU is 1
+=====================
+Time: Wed Apr 23 21:41:01 2025
+Device Name: NVIDIA A100-SXM4-40GB,Device Capability: (8, 0)
+=====================
+Time: Wed Apr 23 21:41:12 2025
+Tokenize Start!
+=====================
+Time: Wed Apr 23 21:43:21 2025
+Tokenize Finished!
+=====================
+Time: Wed Apr 23 21:43:49 2025
+train dataset size is 1038948,
+validation dataset size is 125330,
+test dataset size is 137934
+=====================
+Time: Wed Apr 23 21:44:07 2025
+Training start!
+=====================
+Time: Wed Apr 23 22:21:56 2025
+Train loss: 0.6932006192838909
+=====================
+Time: Wed Apr 23 22:23:19 2025
+Validation Accuracy: 0.5
+=====================
+Time: Wed Apr 23 22:23:22 2025
+total training time is: 2355.313452243805s
+=====================
+Time: Wed Apr 23 22:23:26 2025
+Model saved!
+=====================
+Time: Wed Apr 23 22:24:47 2025
+Test Patient Level Accuracy: 0.5
+Test Patient Level F1 Score: 0.6666666666666666
+Test Patient Level Precision: 0.5
+Test Patient Level Recall: 1.0
+Test Patient Level AUC: 0.5 
+Test Patient Level Matthew's correlation coefficient: 0.0
+Test Patient Level AUPR: 0.75 
+All Finished!
+=====================
+Time: Fri Apr 25 14:43:49 2025
+New Split Job Start! 
+data_dir: /content/drive/MyDrive/CS598-DL-Healthcare/discharge, train_data: train.csv, val_data: val.csv, test_data: test.csv 
+log_path: log.txt, output_dir: chunk_output_discharge, max_seq_length: 64
+=====================
+Time: Sat Apr 26 00:35:37 2025
+New Split Job Start! 
+data_dir: /content/drive/MyDrive/CS598-DL-Healthcare/discharge, train_data: train.csv, val_data: val.csv, test_data: test.csv 
+log_path: log.txt, output_dir: chunk_output_discharge, max_seq_length: 64
+=====================
+Time: Sat Apr 26 00:46:56 2025
+New Split Job Start! 
+data_dir: /content/drive/MyDrive/CS598-DL-Healthcare/discharge, train_data: train.csv, val_data: val.csv, test_data: test.csv 
+log_path: log.txt, output_dir: chunk_output_discharge, max_seq_length: 64
+=====================
+Time: Sat Apr 26 01:09:01 2025
+New Split Job Start! 
+data_dir: /content/drive/MyDrive/CS598-DL-Healthcare/discharge, train_data: train.csv, val_data: val.csv, test_data: test.csv 
+log_path: log.txt, output_dir: chunk_output_discharge, max_seq_length: 64
+=====================
+Time: Sat Apr 26 01:09:55 2025
+New Split Job Start! 
+data_dir: /content/drive/MyDrive/CS598-DL-Healthcare/discharge, train_data: train.csv, val_data: val.csv, test_data: test.csv 
+log_path: log.txt, output_dir: chunk_output_discharge, max_seq_length: 64
+=====================
+Time: Sat Apr 26 01:16:26 2025
+New Split Job Start! 
+data_dir: /content/drive/MyDrive/CS598-DL-Healthcare/discharge, train_data: train.csv, val_data: val.csv, test_data: test.csv 
+log_path: log.txt, output_dir: chunk_output_discharge, max_seq_length: 64
+=====================
+Time: Sat Apr 26 01:27:21 2025
+New Split Job Start! 
+data_dir: /content/drive/MyDrive/CS598-DL-Healthcare/discharge, train_data: train.csv, val_data: val.csv, test_data: test.csv 
+log_path: log.txt, output_dir: chunk_output_discharge, max_seq_length: 64
+=====================
+Time: Sat Apr 26 01:29:20 2025
+In the train dataset Positive Patients' Chunks: 108651, Negative Patients' Chunks: 106396
+In the validation dataset Positive Patients' Chunks: 13312, Negative Patients' Chunks: 11580
+In the test dataset Positive Patients' Chunks: 14078, Negative Patients' Chunks: 11040
+=====================
+Time: Sat Apr 26 01:29:24 2025
+Split finished
+=====================
+Time: Sat Apr 26 01:32:01 2025
+New Job Start! 
+Data directory: ./chunk_output_discharge, Directory Code: discharge, Save Model: True
+Output_dir: ./FINAL_FTL-Trans-discharge, Task Name: FTL-Trans_Prediction, embed_mode: all
+max_seq_length: 64,  max_chunk_num: 32
+train_batch_size: 32, eval_batch_size: 1
+learning_rate: 2e-05, warmup_proportion: 0.1
+num_train_epochs: 1, seed: 42, gradient_accumulation_steps: 1
+FTLSTM Model's lstm_layers: 1
+=====================
+Time: Sat Apr 26 01:32:01 2025
+config setting: 
+hidden_dropout_prob: 0.1 
+layer_norm_eps: 1e-12 
+initializer_range: 0.02 
+max_note_position_embedding: 1000 
+max_chunk_position_embedding: 1000 
+embed_mode: all 
+hidden_size: 768 
+lstm_layers: 1 
+task_name: FTL-Trans_Prediction 
+
+=====================
+Time: Sat Apr 26 01:32:01 2025
+Number of GPU is 1
+=====================
+Time: Sat Apr 26 01:32:01 2025
+Device Name: NVIDIA A100-SXM4-40GB,Device Capability: (8, 0)
+=====================
+Time: Sat Apr 26 01:32:03 2025
+Tokenize Start!
+=====================
+Time: Sat Apr 26 01:32:17 2025
+Tokenize Finished!
+=====================
+Time: Sat Apr 26 01:32:20 2025
+train dataset size is 215047,
+validation dataset size is 24892,
+test dataset size is 25118
+=====================
+Time: Sat Apr 26 01:33:13 2025
+Training start!
+=====================
+Time: Mon Apr 28 14:42:57 2025
+New Split Job Start! 
+data_dir: /content/drive/MyDrive/CS598-DL-Healthcare/discharge, train_data: train.csv, val_data: val.csv, test_data: test.csv 
+log_path: log.txt, output_dir: chunk_output_discharge2, max_seq_length: 318
+=====================
+Time: Mon Apr 28 14:44:50 2025
+In the train dataset Positive Patients' Chunks: 26291, Negative Patients' Chunks: 25928
+In the validation dataset Positive Patients' Chunks: 3214, Negative Patients' Chunks: 2827
+In the test dataset Positive Patients' Chunks: 3408, Negative Patients' Chunks: 2687
+=====================
+Time: Mon Apr 28 14:44:53 2025
+Split finished
+=====================
+Time: Mon Apr 28 14:50:35 2025
+New Split Job Start! 
+data_dir: /content/drive/MyDrive/CS598-DL-Healthcare/discharge, train_data: train.csv, val_data: val.csv, test_data: test.csv 
+log_path: log.txt, output_dir: chunk_output_discharge3, max_seq_length: 318
+=====================
+Time: Mon Apr 28 14:52:24 2025
+In the train dataset Positive Patients' Chunks: 26291, Negative Patients' Chunks: 25928
+In the validation dataset Positive Patients' Chunks: 3214, Negative Patients' Chunks: 2827
+In the test dataset Positive Patients' Chunks: 3408, Negative Patients' Chunks: 2687
+=====================
+Time: Mon Apr 28 14:52:27 2025
+Split finished
+=====================
+Time: Wed Apr 30 14:30:34 2025
+New Split Job Start! 
+data_dir: /content/drive/MyDrive/CS598-DL-Healthcare/final_data, train_data: train.csv, val_data: val.csv, test_data: test.csv 
+log_path: log.txt, output_dir: chunk_output_final, max_seq_length: 128
+=====================
+Time: Wed Apr 30 14:32:21 2025
+In the train dataset Positive Patients' Chunks: 652846, Negative Patients' Chunks: 364333
+In the validation dataset Positive Patients' Chunks: 92768, Negative Patients' Chunks: 47134
+In the test dataset Positive Patients' Chunks: 71892, Negative Patients' Chunks: 39972
+=====================
+Time: Wed Apr 30 14:32:37 2025
+Split finished
+=====================
+Time: Wed Apr 30 22:06:16 2025
+New Split Job Start! 
+data_dir: /content/drive/MyDrive/CS598-DL-Healthcare/final_data_NEW, train_data: train.csv, val_data: val.csv, test_data: test.csv 
+log_path: log.txt, output_dir: chunk_output_final_NEW, max_seq_length: 128
+=====================
+Time: Wed Apr 30 22:07:42 2025
+In the train dataset Positive Patients' Chunks: 679334, Negative Patients' Chunks: 400818
+In the validation dataset Positive Patients' Chunks: 89974, Negative Patients' Chunks: 53329
+In the test dataset Positive Patients' Chunks: 86711, Negative Patients' Chunks: 54324
+=====================
+Time: Wed Apr 30 22:08:10 2025
+Split finished
+=====================
+Time: Sat May  3 16:47:04 2025
+New Split Job Start! 
+data_dir: /content/drive/MyDrive/CS598-DL-Healthcare/bert-large-uncased-data, train_data: train.csv, val_data: val.csv, test_data: test.csv 
+log_path: log.txt, output_dir: bert-large-uncased-chunks, max_seq_length: 128
+=====================
+Time: Sat May  3 16:48:30 2025
+In the train dataset Positive Patients' Chunks: 679334, Negative Patients' Chunks: 400818
+In the validation dataset Positive Patients' Chunks: 89974, Negative Patients' Chunks: 53329
+In the test dataset Positive Patients' Chunks: 86711, Negative Patients' Chunks: 54324
+=====================
+Time: Sat May  3 16:48:58 2025
+Split finished
+=====================
+Time: Sun May  4 18:50:13 2025
+New Split Job Start! 
+data_dir: /content/drive/MyDrive/CS598-DL-Healthcare/clinical-bert-data, train_data: train.csv, val_data: val.csv, test_data: test.csv 
+log_path: log.txt, output_dir: clinical-bert-chunks, max_seq_length: 128
+=====================
+Time: Sun May  4 18:51:40 2025
+In the train dataset Positive Patients' Chunks: 679334, Negative Patients' Chunks: 400818
+In the validation dataset Positive Patients' Chunks: 89974, Negative Patients' Chunks: 53329
+In the test dataset Positive Patients' Chunks: 86711, Negative Patients' Chunks: 54324
+=====================
+Time: Sun May  4 18:52:10 2025
+Split finished
+=====================
